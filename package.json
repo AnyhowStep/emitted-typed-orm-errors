@@ -1,0 +1,17 @@
+{
+  "name": "using-typed-orm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "tsc --noEmit --diagnostics",
+    "check2": "node --max-old-space-size=8192 ./node_modules/typescript/lib/tsc.js --noEmit --noErrorTruncation --diagnostics",
+    "check3": "node --max-old-space-size=16384 ./node_modules/typescript/lib/tsc.js --noEmit --noErrorTruncation --diagnostics"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typed-orm": "^0.6.69"
+  }
+}
